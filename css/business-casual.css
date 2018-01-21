@@ -15,6 +15,12 @@ h6 {
   font-family: 'Raleway';
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 p {
   line-height: 1.75;
 }
@@ -119,25 +125,52 @@ p {
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
-    float: right;
+    float:right;
   }
-  .intro .intro-text {
-    left: 0;
-    width: 60%;
+  
+  .intro .intro-text{
+    left:0;
+    width: 45%;
     margin-top: 3rem;
     position: absolute;
   }
-  .intro .intro-text .intro-button {
+  
+
+  .alt-text {
+    left:0;
+    width: 45%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+/*
+  .intro .intro-text .intro-button{
     width: 100%;
     left: 0;
     position: absolute;
     bottom: -2rem;
   }
+*/
+  .test-margin {
+    margin-left: 700px;
+   
+  } 
+
+}
+
+@media (max-width: 991px)
+{
+  .intro-text{
+    margin-bottom: 10px
+  }
 }
 
 @media (min-width: 1200px) {
-  .intro .intro-text {
+  .intro .intro-text{
     width: 45%;
+  }
+
+  .alt-text {
+    width:45%;
   }
 }
 
