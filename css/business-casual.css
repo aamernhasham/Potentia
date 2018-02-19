@@ -65,14 +65,14 @@ p {
 
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .bg-faded {
@@ -127,14 +127,14 @@ p {
     width: 75%;
     float:right;
   }
-  
+
   .intro .intro-text{
     left:0;
     width: 45%;
     margin-top: 3rem;
     position: absolute;
   }
-  
+
 
   .alt-text {
     left:0;
@@ -152,8 +152,8 @@ p {
 */
   .test-margin {
     margin-left: 700px;
-   
-  } 
+
+  }
 
 }
 
@@ -247,7 +247,7 @@ p {
 
 @media (min-width: 992px) {
   .list-hours {
-    width: 50%;
+    width: 80%;
     font-size: 1.1rem;
   }
 }
