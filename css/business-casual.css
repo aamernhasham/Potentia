@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+
 }
 
 h1,
@@ -15,6 +16,15 @@ h6 {
   font-family: 'Raleway';
 }
 
+#logo_img{
+
+  width:15%;
+  height:15%;
+  margin:0;
+  padding:0;
+  text-align: left;
+
+}
 .clearfix:after {
   content: "";
   display: table;
@@ -86,6 +96,8 @@ p {
 
 #mainNav .navbar-brand {
   color: #e6a756;
+  margin:0;
+  padding:0;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -258,8 +270,11 @@ p {
 
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
-}
 
+}
+.footer,.push{
+  height:50px;
+}
 .text-primary {
   color: #e6a756 !important;
 }
