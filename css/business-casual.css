@@ -4,7 +4,9 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1,
@@ -62,6 +64,7 @@ p {
 .page-section {
   margin-top: 0rem;
   margin-bottom: 5rem;
+
 }
 
 .page-main-section{
@@ -270,11 +273,10 @@ p {
 
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
+  margin: auto 0 0 0;
 
 }
-.footer,.push{
-  height:50px;
-}
+
 .text-primary {
   color: #e6a756 !important;
 }
