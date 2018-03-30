@@ -177,7 +177,19 @@ p {
   .intro-text{
     margin-bottom: 10px
   }
+
+  #logo_img{
+
+    width:30%;
+    height:25%;
+    margin:0;
+    padding:0;
+    text-align: left;
+
+  }
+
 }
+
 
 @media (min-width: 1200px) {
   .intro .intro-text{
