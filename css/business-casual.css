@@ -140,12 +140,14 @@ p {
 
 .intro {
   position: relative;
+
 }
 
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
     float:right;
+    margin-top: 12em;
   }
 
 
